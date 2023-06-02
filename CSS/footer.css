@@ -4,6 +4,7 @@ footer {
     background: #353535;
     color: white;
     height: 190px;
+    margin-bottom: -8px;
     & .footer-content {
         display: flex;
         flex-direction: column;

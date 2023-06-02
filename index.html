@@ -1,13 +1,18 @@
 <!DOCTYPE html>
+<html lang="fr">
+
 <head>
-<title>ohmyfood</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/footer.css">
-<link rel="stylesheet" href="CSS/header.css">
-<link rel="stylesheet" href="CSS/main.css">
+  <title>ohmyfood</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="stylesheet" href="CSS/header.css">
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="SASS/main.scss">
+  <link rel="stylesheet" href="restaurants/">
 </head>
 <body>
   <header>
@@ -28,15 +33,15 @@
       <h1>Fonctionnement</h1>
       <button>Choisissez un restaurant
         <img src="images/Icon/mobile-screen-button.png" alt="logo mobile">
-        <div class="fonctionnement-rank">1</div>
+        <span class="fonctionnement-rank">1</span>
       </button>
       <button>Composez votre menu
         <img src="images/Icon/list-ul.png" alt="logo liste">
-        <div class="fonctionnement-rank">2</div>
+        <span class="fonctionnement-rank">2</span>
       </button>
       <button>Dégustez au restaurant
         <img src="images/Icon/store.png" alt="logo store">
-        <div class="fonctionnement-rank">3</div>
+        <span class="fonctionnement-rank">3</span>
       </button>
     </section>
     <section class="restaurants">
@@ -44,7 +49,7 @@
         <h1>Restaurants</h1>
       </div>
         <article class="card">
-          <a class="card-link" href="#">
+          <a class="card-link" href="palette.html">
             <img class="card-image img-1" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="images d'un plât">
             <p class="nouveau">Nouveau</p>
             <div class="card-content">
@@ -52,14 +57,15 @@
                 <h3>La palette du goût</h3>
                 <p class="quartier">Ménilmontant</p>
               </div>
-          </a>
-              <div class="card-fav">
-                <img src="images/Icon/heart-vector.png" alt="image d'un coeur">
-              </div>
             </div>
+          </a>
+          <div class="card-fav">
+            <img class="heart" src="images/Icon/heart-vector.png" alt="image d'un coeur">
+            <img class="heart-color" src="images/Icon/heart-color.png" alt="coeur violet">
+          </div>
         </article>
         <article class="card">
-          <a class="card-link" href="#">
+          <a class="card-link" href="enchante.html">
             <img class="card-image img-2" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="images d'un plât">
             <p class="nouveau">Nouveau</p>
             <div class="card-content">
@@ -67,39 +73,42 @@
                 <h3>La note enchantée</h3>
                 <p class="quartier">Charonne</p>
               </div>
-          </a>
-              <div class="card-fav">
-                <img src="images/Icon/heart-vector.png" alt="image d'un coeur">
-              </div>
             </div>
+          </a>
+          <div class="card-fav">
+            <img class="heart" src="images/Icon/heart-vector.png" alt="image d'un coeur">
+            <img class="heart-color" src="images/Icon/heart-color.png" alt="coeur violet">
+          </div>
         </article>
         <article class="card">
-          <a class="card-link" href="#">
+          <a class="card-link" href="francaise.html">
             <img class="card-image img-3" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="images d'un plât">
             <div class="card-content">
               <div class="card-txt">
                 <h3>À la française</h3>
                 <p class="quartier">Cité Rouge</p>
               </div>
-          </a>
-              <div class="card-fav">
-                <img src="images/Icon/heart-vector.png" alt="image d'un coeur">
-              </div>
             </div>
+          </a>
+          <div class="card-fav">
+            <img class="heart" src="images/Icon/heart-vector.png" alt="image d'un coeur">
+            <img class="heart-color" src="images/Icon/heart-color.png" alt="coeur violet">
+          </div>
         </article>
         <article class="card">
-          <a class="card-link" href="#">
+          <a class="card-link" href="delice.html">
             <img class="card-image img-4" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="images d'un plât">
             <div class="card-content">
               <div class="card-txt">
                 <h3>Le délice des sens</h3>
                 <p class="quartier">Folie-Méricourt</p>
               </div>
-          </a>
-              <div class="card-fav">
-                <img src="images/Icon/heart-vector.png" alt="image d'un coeur">
-              </div>
             </div>
+          </a>
+          <div class="card-fav">
+            <img class="heart" src="images/Icon/heart-vector.png" alt="image d'un coeur">
+            <img class="heart-color" src="images/Icon/heart-color.png" alt="coeur violet">
+          </div>
         </article>
     </section>
   </main>
@@ -118,6 +127,6 @@
       <a class="footer-link" href="#">Mentions légales</a>
       <a class="footer-link" href="#">Contact</a>
     </div>
-  
   </footer>
 </body>
+</html>
