@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="restaurants/">
 </head>
 <body>
+  <section class="loader">chargement
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </section>
   <header>
     <img src="images/logo/ohmyfood.png" alt="logo ohmyfood">
   </header>
@@ -31,23 +36,27 @@
     </section>
     <section class="fonctionnement">
       <h1>Fonctionnement</h1>
-      <button>Choisissez un restaurant
-        <img src="images/Icon/mobile-screen-button.png" alt="logo mobile">
-        <span class="fonctionnement-rank">1</span>
-      </button>
-      <button>Composez votre menu
-        <img src="images/Icon/list-ul.png" alt="logo liste">
-        <span class="fonctionnement-rank">2</span>
-      </button>
-      <button>Dégustez au restaurant
-        <img src="images/Icon/store.png" alt="logo store">
-        <span class="fonctionnement-rank">3</span>
-      </button>
+      <div class="fonctionnement-button">
+        <button>Choisissez un restaurant
+          <img src="images/Icon/mobile-screen-button.png" alt="logo mobile">
+          <span class="fonctionnement-rank">1</span>
+        </button>
+        <button>Composez votre menu
+          <img src="images/Icon/list-ul.png" alt="logo liste">
+          <span class="fonctionnement-rank">2</span>
+        </button>
+        <button>Dégustez au restaurant
+          <img src="images/Icon/store.png" alt="logo store">
+          <span class="fonctionnement-rank">3</span>
+        </button>
+      </div>
     </section>
     <section class="restaurants">
       <div class="restaurants-title">
         <h1>Restaurants</h1>
       </div>
+      <div class="restaurants-card">
+        
         <article class="card">
           <a class="card-link" href="palette.html">
             <img class="card-image img-1" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="images d'un plât">
@@ -110,22 +119,25 @@
             <img class="heart-color" src="images/Icon/heart-color.png" alt="coeur violet">
           </div>
         </article>
+      </div>
     </section>
   </main>
 
   <footer>
     <div class="footer-content">
       <p>ohmyfood</p>
-      <a class="footer-link" href="#">
-        <img src="images/Icon/fork-vector.png" alt="set de couverts">
-        Proposer un restaurant
-      </a>
-      <a class="footer-link" href="#">
-        <img src="images/Icon/handshake-vector.png" alt="poignée de main">
-        Devenir partenaire
-      </a>
-      <a class="footer-link" href="#">Mentions légales</a>
-      <a class="footer-link" href="#">Contact</a>
+      <div class="footer-box-link">
+        <a class="footer-link" href="#">
+          <img src="images/Icon/fork-vector.png" alt="set de couverts">
+          Proposer un restaurant
+        </a>
+        <a class="footer-link" href="#">
+          <img src="images/Icon/handshake-vector.png" alt="poignée de main">
+          Devenir partenaire
+        </a>
+        <a class="footer-link" href="#">Mentions légales</a>
+        <a class="footer-link" href="#">Contact</a>
+      </div>
     </div>
   </footer>
 </body>
