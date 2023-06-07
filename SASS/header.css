@@ -1,0 +1,20 @@
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+}
+header img {
+  width: 162px;
+}
+header .arrow {
+  height: 16px;
+  width: 17px;
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
+}
+
+/* MEDIA QUERIES *//*# sourceMappingURL=header.css.map */
