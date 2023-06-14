@@ -1,0 +1,114 @@
+/********************************** RESTAURANTS MENU ****************/
+
+.img-menu {
+  width: 100%;
+  height: 275px;
+  position: relative;
+}
+
+main {
+  margin-bottom: -50px;
+}
+
+.menu-content {
+  margin-left: 13px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+  background-color: $main-bg-color;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  & h1 {
+    font-family:$second-font ;
+    font-size: 28px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+  }
+  & .card-fav {
+    position: absolute;
+    top: 40px;
+    right: 41px;
+  }
+  & .menu-title {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  & .menu-card {
+    height: 69px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 12px;
+    align-items: center;
+    position: relative;
+    display: flex;
+      flex-direction: column;
+    align-items: flex-start;
+    box-shadow: $shadow-div;
+    overflow: hidden;
+    }
+    & h3 {
+      margin-left: 15px;
+      margin-top: 12px;
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    & p {
+      margin-top: 0;
+      margin-left: 15px;
+      font-size: 15px;
+    }
+  }
+   .price {
+    position: absolute;
+    right:15px ;
+    bottom: 0px;
+    font-weight: 700;
+    transition: 400ms;
+  }
+
+.order-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  & .button {
+    font-size: 16px;
+  }
+}
+
+/****************************  Restaurant - La note enchantée */
+
+img {
+  object-fit: cover;
+  object-position: 10% 40%;
+}
+
+// ***************************************************** MENU SLIDE
+@for $i from 1 through 10 {
+  .mc#{$i} {
+    animation:slide ($i*.2s);
+  }
+}
+
+@keyframes slide {
+  0% {transform: scaleX(0);}
+  100% {transform: scaleX(1);}
+}
+
+// media
+
+@media (min-width:$medium) {
+  .menu{
+    @include flexColumn;
+  }
+}

@@ -34,7 +34,8 @@ footer img {
   color: white;
 }
 
-/* MEDIA QUERIES */
+/********************************************************************************************************** MEDIA QUERIES */
+/**************************************** media queries for: FOOTER (tablette) */
 @media (min-width: 768px) {
   footer {
     position: relative;
@@ -63,6 +64,7 @@ footer img {
     margin-left: 20px;
   }
 }
+/**************************************** media queries for: FOOTER (LAPTOP) */
 @media (min-width: 1024px) {
   footer {
     position: relative;

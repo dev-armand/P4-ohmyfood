@@ -1,25 +1,22 @@
 footer {
     display: flex;
-    background: #353535;
+    background: darken($main-bg-color,75%);
     color: white;
     height: 190px;
     margin-bottom: -8px;
     & .footer-box-link {
-        display: flex;
-        flex-direction: column;
+        @include flexColumn(flex-start,flex-start);
         gap: 7px;
     }
     & .footer-content {
-        display: flex;
-        flex-direction: column;
         margin-left: 25px;
         gap: 7px;
     }
     & .footer-link {
-        color: white;
+        color: $txt-second-color;
     }
     & p {
-        font-family: 'Shrikhand', cursive;
+        font-family: $second-font, cursive;
         width: 137px;
         height: 27px;
         font-size: 18px;
@@ -31,20 +28,18 @@ footer img{
     width: 11px;
     height: 13px;  
     margin-right: 8px;  
-    color: white;
+    color: $txt-second-color;
 }
 
-/* MEDIA QUERIES */
-@media (min-width: 768px ) {
+/********************************************************************************************************** MEDIA QUERIES */
+/**************************************** media queries for: FOOTER (tablette) */
+@include forTablet {
     footer{
         position: relative;
         height: 114px;
         margin-top: 50px;
         & .footer-content {
             height: 114px;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
         }
         & p {
             position: absolute;
@@ -55,7 +50,7 @@ footer img{
             position: absolute;
             flex-direction: row;
             width: 700px;
-            right: 90px;
+            right: 100px;
             bottom: 30px;
             & .footer-link {
             margin-left: 20px;
@@ -64,16 +59,14 @@ footer img{
     }
 }
 
-@media (min-width:1024px) {
+/**************************************** media queries for: FOOTER (LAPTOP) */
+@include forLaptop {
     footer{
         position: relative;
         height: 114px;
         margin-top: 50px;
         & .footer-content {
             height: 114px;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
         }
         & p {
             position: absolute;
@@ -90,5 +83,5 @@ footer img{
             }
         }
     }
-  }
-  
+}
+

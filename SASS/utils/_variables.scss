@@ -1,0 +1,33 @@
+// FONTS
+$main-font: 'Roboto', sans-serif;
+$second-font: 'Shrikhand', sans-serif;
+
+// COLORS
+  $main-color: #9356DC ;
+  $second-color:#FF79DA ;
+  $third-color:#99E2D0 ;
+  $main-bg-color:#F6F6F6;
+  $linear-gradient:linear-gradient($second-color,$main-color);
+  $txt-main-color:black;
+  $txt-second-color:white;
+
+  // DISPLAY
+  $justify: justify-content;
+  $align: align-items;
+  $small: 375px;
+  $medium: 768px;
+  $large: 1124px;
+
+  // SHADOWS
+  // main button shadow
+  $shadow-light:0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  $shadow-dark:0px 4px 10px 0px rgba(0, 0, 0, 0.55);
+
+  //second button shadow
+  $shadow-second:0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+
+  // article shadow
+  $shadow-div:0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+
+ 
+  

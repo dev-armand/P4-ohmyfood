@@ -1,9 +1,6 @@
 header {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  @include flexRow;
   height: 63px;
   & img {
     width: 162px;
@@ -15,13 +12,4 @@ header {
     left: 23px;
     bottom: 23px;
   }
-}
-
-/* MEDIA QUERIES */
-
-@media (min-width:1024px) {
-}
-
-@media (min-width:768px) {
-  
 }
