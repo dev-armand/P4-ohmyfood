@@ -7,7 +7,7 @@
   width: 100%;
   z-index: 1;
   gap: 3px;
-  font-size: 2rem;
+  font-size: 3.2rem;
   animation: load 2s forwards;
   & .bar1, .bar2, .bar3 {
     height: 50px;
@@ -32,5 +32,6 @@
 @keyframes load {
   0% {transform: scale(1); opacity: 1;}
   50% {transform: scale(1); opacity: 1;}
-  100% {transform: scale(1); opacity: 0;}
+  100% {transform: scale(1); opacity: 0; visibility: hidden;}
 }
+
