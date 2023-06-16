@@ -23,7 +23,7 @@ main {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   & h1 {
-    font-family:$second-font ;
+    font-family: $second-font;
     font-size: 28px;
     margin-top: 32px;
     margin-bottom: 0;
@@ -44,7 +44,7 @@ main {
   }
   & .menu-card {
     height: 69px;
-    background-color: white;
+    background-color: $white;
     border-radius: 15px;
     margin-top: 12px;
     align-items: center;
@@ -69,17 +69,14 @@ main {
   }
    .price {
     position: absolute;
-    right:15px ;
+    right: 15px ;
     bottom: 0px;
     font-weight: 700;
     transition: 400ms;
   }
 
 .order-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  @include flexRow;
   height: 130px;
   & .button {
     font-size: 16px;
@@ -96,7 +93,7 @@ img {
 // ***************************************************** MENU SLIDE
 @for $i from 1 through 10 {
   .mc#{$i} {
-    animation:slide ($i*.2s);
+    animation: slide ($i*.2s);
   }
 }
 

@@ -5,10 +5,10 @@
   border-radius: 25px;
   font-size: 16px;
   background: $linear-gradient;
-  color:white;
+  color: $white;
   border: none;
   box-shadow: $shadow-light;
-  transition:  ease-in-out 300ms;
+  transition: ease-in-out 300ms;
   &:hover {
     opacity: .7;
     box-shadow: $shadow-dark;

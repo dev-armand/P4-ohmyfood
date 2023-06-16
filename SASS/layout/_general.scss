@@ -13,15 +13,15 @@ a {
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-size: 2.4rem;
 }
 
-h3{
+h3 {
   font-size: 1.8rem;
 }
 
-p, a{
+p, a {
   font-size: 1.6rem;
 }
 
@@ -82,7 +82,7 @@ p, a{
     height: 24px;
     width: 24px;
     border-radius: 15px;
-    color: $txt-second-color;
+    color: $white;
     @include flexRow;
   }
 }
@@ -98,7 +98,7 @@ p, a{
     margin-top: 36px;
     }
     & a {
-      color: $txt-main-color;
+      color: $black;
     }
 }
 

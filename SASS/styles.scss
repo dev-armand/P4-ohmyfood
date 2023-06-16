@@ -1,14 +1,16 @@
 @import "utils/variables";
-@import "base/typography";
 @import "utils/mixins";
+@import "base/typography";
+@import "layout/header";
+@import "layout/general";
+@import "layout/footer";
 @import "components/loader";
 @import "components/button";
-@import "layout/general";
-@import "pages/menu";
-@import "layout/footer";
-@import "layout/header";
 @import "components/heart";
 @import "components/checkmark";
+@import "pages/menu";
+
+
 
 
 

@@ -8,8 +8,8 @@ $second-font: 'Shrikhand', sans-serif;
   $third-color:#99E2D0 ;
   $main-bg-color:#F6F6F6;
   $linear-gradient:linear-gradient($second-color,$main-color);
-  $txt-main-color:black;
-  $txt-second-color:white;
+  $black:black;
+  $white:white;
 
   // DISPLAY
   $justify: justify-content;
@@ -20,8 +20,8 @@ $second-font: 'Shrikhand', sans-serif;
 
   // SHADOWS
   // main button shadow
-  $shadow-light:0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  $shadow-dark:0px 4px 10px 0px rgba(0, 0, 0, 0.55);
+  $shadow-light: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  $shadow-dark: 0px 4px 10px 0px rgba(0, 0, 0, 0.55);
 
   //second button shadow
   $shadow-second:0px 4px 15px 0px rgba(0, 0, 0, 0.15);

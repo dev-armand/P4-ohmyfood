@@ -1,7 +1,7 @@
 footer {
     display: flex;
     background: darken($main-bg-color,75%);
-    color: white;
+    color: $white;
     height: 190px;
     margin-bottom: -8px;
     & .footer-box-link {
@@ -13,7 +13,7 @@ footer {
         gap: 7px;
     }
     & .footer-link {
-        color: $txt-second-color;
+        color: $white;
     }
     & p {
         font-family: $second-font, cursive;
@@ -24,11 +24,11 @@ footer {
     }
 }
 
-footer img{
+footer img {
     width: 11px;
     height: 13px;  
     margin-right: 8px;  
-    color: $txt-second-color;
+    color: $white;
 }
 
 /********************************************************************************************************** MEDIA QUERIES */

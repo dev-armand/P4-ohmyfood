@@ -1,42 +1,45 @@
 @mixin flexRow($justify:center, $align:center) {
   display: flex;
   flex-direction: row;
-  justify-content:$justify;
-  align-items:$align;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 @mixin flexRowReverse($justify:center, $align:center) {
   display: flex;
   flex-direction: row-reverse;
-  justify-content:$justify;
-  align-items:$align;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 @mixin flexColumn($justify:center, $align:center) {
   display: flex;
   flex-direction: column;
-  justify-content:$justify;
-  align-items:$align;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 @mixin flexColumnReverse($justify:center, $align:center) {
   display: flex;
   flex-direction: column-reverse;
-  justify-content:$justify;
-  align-items:$align;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 @mixin forMobile {
   @media (min-width:$small){
-    @content;}
+    @content;
+  }
 }
 
 @mixin forTablet {
   @media (min-width:$medium){
-    @content;}
+    @content;
+  }
 }
 
 @mixin forLaptop {
   @media (min-width:$large){
-    @content;}
+    @content;
+  }
 }
