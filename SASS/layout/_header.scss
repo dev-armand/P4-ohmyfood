@@ -2,6 +2,7 @@ header {
   position: relative;
   @include flexRow;
   height: 63px;
+  box-shadow: $shadow-head;
   & img {
     width: 162px;
   }

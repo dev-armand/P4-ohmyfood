@@ -1,0 +1,11 @@
+// ***************************************************** MENU SLIDE
+@for $i from 1 through 10 {
+  .mc#{$i} {
+    animation: slide ($i*.2s);
+  }
+}
+
+@keyframes slide {
+  0% {transform: scaleX(0);}
+  100% {transform: scaleX(1);}
+}

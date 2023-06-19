@@ -6,6 +6,7 @@ $second-font: 'Shrikhand', sans-serif;
   $main-color: #9356DC ;
   $second-color:#FF79DA ;
   $third-color:#99E2D0 ;
+  $darkgreen: #008766;
   $main-bg-color:#F6F6F6;
   $linear-gradient:linear-gradient($second-color,$main-color);
   $black:black;
@@ -28,6 +29,4 @@ $second-font: 'Shrikhand', sans-serif;
 
   // article shadow
   $shadow-div:0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-
- 
-  
+  $shadow-head: 0px 2px 4px 0px #00000026;
