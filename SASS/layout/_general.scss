@@ -174,7 +174,7 @@ p, a {
 /****************************************** media queries for: TABLETTE */
 @include forTablet {
   .reservez {
-    height: 240px;
+    height: 340px;
     & p {
       width: 531px;
       height: 37px;
@@ -225,7 +225,7 @@ p, a {
 /******************************************************** media queries for: LAPTOP */
 @include forLaptop {
   .reservez {
-    height: 240px;
+    height: 300px;
     & p {
       width: 531px;
       height: 37px;
@@ -253,7 +253,7 @@ p, a {
     height: 668px;
     align-items: start;
     & .restaurants-title {
-      padding-left: 180px;
+      padding-left: 200px;
       margin-top: 10px;
       margin-bottom: -10px;
     }

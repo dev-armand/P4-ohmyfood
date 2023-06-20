@@ -2,7 +2,7 @@
 
 .img-menu {
   width: 100%;
-  height: 375px;
+  height: 275px;
   position: relative;
 }
 
@@ -75,7 +75,7 @@ main {
     transition: 400ms;
   }
 
-.order-button {
+.order-section {
   @include flexRow;
   height: 130px;
   & .button {
@@ -92,6 +92,12 @@ img {
 
 //**************************************** MEDIA QUERIES
 @include forTablet {
+  .img-menu {
+    width: 100%;
+    height: 375px;
+    position: relative;
+  }
+
    .menu{
     @include flexColumn;
     & h1{
@@ -132,6 +138,12 @@ img {
 }
 
 @include forLaptop {
+  .img-menu {
+    width: 100%;
+    height: 275px;
+    position: relative;
+  }
+
     .menu{
       @include flexColumn;
       & h1{
