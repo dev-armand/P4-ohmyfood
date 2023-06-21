@@ -11,6 +11,8 @@ $second-font: 'Shrikhand', sans-serif;
   $linear-gradient:linear-gradient($second-color,$main-color);
   $black:black;
   $white:white;
+  $purple-filter: invert(37%) sepia(85%) saturate(893%) hue-rotate(236deg) brightness(71%) contrast(95%);
+  $gray-filter: invert(49%) sepia(83%) saturate(3%) hue-rotate(343deg) brightness(88%) contrast(91%);
 
   // DISPLAY
   $justify: justify-content;

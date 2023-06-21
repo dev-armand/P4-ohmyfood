@@ -17,6 +17,10 @@ h1 {
   font-size: 2.4rem;
 }
 
+h2 {
+  font-size: 2.2rem;
+}
+
 h3 {
   font-size: 1.8rem;
 }
@@ -86,6 +90,18 @@ p, a {
     border-radius: 15px;
     color: $white;
     @include flexRow;
+  }
+  & .bt1:hover .fonctionnement-img {
+    filter: $purple-filter
+  }
+  & .bt2:hover .fonctionnement-img {
+    filter: $purple-filter
+  }
+  & .bt3:hover .fonctionnement-img {
+    filter: $purple-filter
+  }
+  & .bt3 .fonctionnement-img {
+    filter: $gray-filter
   }
 }
 
